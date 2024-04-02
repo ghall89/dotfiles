@@ -1,0 +1,14 @@
+source $(brew --prefix nvm)/nvm.sh
+
+# Load seperated config files
+for conf in "$HOME/dotfiles/zsh_config/"*.zsh; do
+  source "${conf}"
+done
+unset conf
+
+[[ "$TERM_PROGRAM" == "CodeEditApp_Terminal" ]] && . "/Applications/CodeEdit.app/Contents/Resources/codeedit_shell_integration.zsh"
+
+eval $(thefuck --alias)
+eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
+
