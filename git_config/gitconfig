@@ -3,7 +3,7 @@
 	email = graham@ghall.dev
 	name = Graham Hall
 [core]
-	editor = bbedit -w
+	editor = micro
 	excludesfile = /Users/ghall/.gitignore
 [filter "lfs"]
 	clean = git-lfs clean -- %f
