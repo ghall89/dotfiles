@@ -1,50 +1,56 @@
-format = """
-$hostname\
-[](fg:blue bg:yellow)\
+format = """\
+$username\
 $directory\
-[](fg:yellow bg:purple)\
 $git_branch\
-$git_status\
-[](purple)
+$git_status
+$sudo\
 $character"""
 
-[hostname]
-ssh_only = false
-format = '[ 󰀶 $user@$ssh_symbol$hostname ](bg:blue)'
-
-[directory]
-format = "[ $path ](bg:yellow)"
-truncation_length = 10
-home_symbol = "~"
-truncation_symbol = "…/"
-
-[character]
-success_symbol = "[󰘍 ](bold green)"
-error_symbol = "[x](bold red)"
-
-[username]
-format = "[$user](bold blue)[ - ](red)"
-disabled = false
-show_always = true
-
-[git_branch]
-symbol = " "
-format = '[ $symbol$branch(:$remote_branch) ](bg:purple)'
-
-[git_status]
-format = '[$all_status$ahead_behind ](bg:purple)'
-modified = "!$count"
-untracked = "?$count"
-stashed = "󰆦 !"
-ahead = "↑$count"
-behind = "↓$count"
-
-[cmd_duration]
-disabled = true
+right_format = '$nodejs$bun$golang'
 
 [aws]
 disabled = true
 
+[directory]
+format = '[ ](yellow)[$path](underline yellow) '
+read_only = ''
+truncation_length = 10
+home_symbol = '~'
+truncate_to_repo = false
+truncation_symbol = '…/'
+
+[username]
+format = '[ $user ](blue)'
+show_always = true
+
+[character]
+success_symbol = '[](bold green)'
+error_symbol = '[✘](bold red)'
+
+[git_branch]
+symbol = ' '
+format = '[$symbol$branch(:$remote_branch) ](purple)'
+
+[git_status]
+format = '[$all_status$ahead_behind](green)'
+modified = '!$count'
+untracked = '?$count'
+deleted = '-$count'
+stashed = '󰆦 !'
+ahead = '↑$count'
+behind = '↓$count'
+staged = '+$count'
+
 [nodejs]
 detect_files = ['package.json', '.node-version', '!bun.lockb']
+format = '[node $version]($style)'
+
+[bun]
+format = '[bun $version]($style)'
+
+[golang]
+format = '[go $version]($style)'
+
+[swift]
+format = '[swift $version]($style)'
 
