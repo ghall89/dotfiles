@@ -1,9 +1,6 @@
 # zshrc
 ln -s -f ~/dotfiles/zsh_config/zshrc ~/.zshrc
 
-# oh my zsh
-ln -s -f ~/dotfiles/misc_config/oh-my-zsh.sh ~/.oh-my-zsh/oh-my-zsh.sh
-
 # starship
 ln -s -f ~/dotfiles/misc_config/starship.toml ~/.config/starship.toml
 
@@ -13,10 +10,12 @@ ln -s -f ~/dotfiles/git_config/global_ignore ~/.gitignore
 ln -s -f ~/dotfiles/git_config/gh_cli.yaml ~/.config/gh/config.yml
 
 # micro
-ln -s -f ~/dotfiles/micro_config/* ~/.config/micro
+ln -s -f ~/dotfiles/micro_config/bindings.json ~/.config/micro/bindings.json
+ln -s -f ~/dotfiles/micro_config/settings.json ~/.config/micro/settings.json
 
 # thefuck
 ln -s -f ~/dotfiles/misc_config/thefuck.py ~/.config/thefuck/settings.py
 
 # zed
-ln -s -f ~/dotfiles/zed_config/* ~/.config/zed
+ln -s -f ~/dotfiles/zed_config/keymap.json ~/.config/zed/keymap.json
+ln -s -f ~/dotfiles/zed_config/settings.json ~/.config/zed/settings.json
