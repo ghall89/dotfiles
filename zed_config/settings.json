@@ -7,26 +7,47 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+  "assistant": {
+    "button": false,
+    "enabled": false
+  },
   "features": {
     "copilot": false
   },
-  "theme": "Gruvbox Dark Soft",
-  "ui_font_family": "Rec Mono Semicasual",
-  "buffer_font_family": "Rec Mono Semicasual",
-  "ui_font_size": 17,
-  "buffer_font_size": 15,
-  "tab_size": 2,
   "collaboration_panel": {
     "button": false
   },
   "chat_panel": {
     "button": false
   },
-  "assistant": {
+  "theme": "Xcode Default Light",
+  "ui_font_family": "Rec Mono Casual",
+  "ui_font_size": 15,
+  "buffer_font_family": "Rec Mono Semicasual",
+  "buffer_font_size": 14,
+  "terminal": {
+    "font_family": "FiraCode Nerd Font Mono"
+  },
+  "soft_wrap": "editor_width",
+  "tabs": {
+    "close_position": "left"
+  },
+  "notification_panel": {
     "button": false
   },
-  "tabs": {
-    "git_status": true,
-    "close_position": "left"
+  "git": {
+    "git_gutter": "tracked_files"
+  },
+  "languages": {
+    "Go": {
+      "tab_size": 2
+    }
+  },
+  "project_panel": {
+    "indent_size": 10
   }
 }
