@@ -9,7 +9,8 @@
     "context": "Editor && mode == full",
     "bindings": {
       "cmd-shift-o": "file_finder::Toggle",
-      "cmd-p": "outline::Toggle"
+      "cmd-p": "outline::Toggle",
+      "cmd-r": "task::Spawn"
     }
   }
 ]

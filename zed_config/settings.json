@@ -12,6 +12,7 @@
     "metrics": false
   },
   "assistant": {
+    "version": "1",
     "button": false,
     "enabled": false
   },
@@ -24,9 +25,13 @@
   "chat_panel": {
     "button": false
   },
-  "theme": "Xcode Default Light",
-  "ui_font_family": "Rec Mono Casual",
-  "ui_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Xcode Presentation Light",
+    "dark": "Gruvbox Dark"
+  },
+  "ui_font_family": "SF Pro Display",
+  "ui_font_size": 16,
   "buffer_font_family": "Rec Mono Semicasual",
   "buffer_font_size": 14,
   "terminal": {
@@ -49,5 +54,8 @@
   },
   "project_panel": {
     "indent_size": 10
+  },
+  "file_types": {
+    "HTML": ["hbs", "njk"]
   }
 }
