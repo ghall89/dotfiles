@@ -53,7 +53,8 @@
     }
   },
   "project_panel": {
-    "indent_size": 10
+    "indent_size": 10,
+    "dock": "right"
   },
   "file_types": {
     "HTML": ["hbs", "njk"]

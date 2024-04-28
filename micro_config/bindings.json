@@ -4,6 +4,8 @@
     "Alt-f": "command:format",
     "Alt-k": "command:hover",
     "Alt-r": "command:references",
+    "CtrlP": "command:palettero",
     "CtrlSpace": "command:lspcompletion",
-    "CtrlUnderscore": "lua:comment.comment"
+    "CtrlUnderscore": "lua:comment.comment",
+    "F6": "command-edit:gorename "
 }
