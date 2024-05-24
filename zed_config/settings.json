@@ -13,11 +13,11 @@
   },
   "assistant": {
     "version": "1",
-    "button": false,
     "enabled": false
   },
   "features": {
-    "copilot": false
+    "copilot": false,
+    "inline_completion_provider": "none"
   },
   "collaboration_panel": {
     "button": false
@@ -27,13 +27,14 @@
   },
   "theme": {
     "mode": "system",
-    "light": "Xcode Presentation Light",
-    "dark": "Gruvbox Dark"
+    "light": "Ayu Light",
+    "dark": "Catppuccin Mocha"
   },
-  "ui_font_family": "Rec Mono Casual",
-  "ui_font_size": 16,
+  "ui_font_family": "SF Pro Display",
+  "ui_font_features": {},
+  "ui_font_size": 17,
   "buffer_font_family": "Rec Mono Semicasual",
-  "buffer_font_size": 14,
+  "buffer_font_size": 14.6,
   "terminal": {
     "font_family": "FiraCode Nerd Font Mono"
   },
@@ -53,8 +54,7 @@
     }
   },
   "project_panel": {
-    "indent_size": 10,
-    "dock": "right"
+    "indent_size": 10
   },
   "file_types": {
     "HTML": ["hbs", "njk"]
