@@ -1,5 +1,11 @@
 {
     "colorscheme": "atom-dark",
+    "lsp.autocompleteDetails": false,
+    "lsp.formatOnSave": true,
+    "lsp.ignoreMessages": "LS message1 to ignore|LS message 2 to ignore|...",
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "go=gopls,typescript=typescript-language-server",
+    "lsp.tabcompletion": true,
     "softwrap": true,
     "tabsize": 2
 }

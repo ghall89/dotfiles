@@ -28,7 +28,7 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Catppuccin Mocha"
+    "dark": "Modest Dark"
   },
   "ui_font_family": "SF Pro Display",
   "ui_font_features": {},
@@ -57,6 +57,6 @@
     "indent_size": 10
   },
   "file_types": {
-    "HTML": ["hbs", "njk"]
+    "HTML": ["hbs", "njk", "webc"]
   }
 }
