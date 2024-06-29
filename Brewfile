@@ -11,6 +11,8 @@ brew "jq"
 brew "ansiweather"
 brew "atuin"
 brew "bchunk"
+brew "cloc"
+brew "exiv2"
 brew "eza"
 brew "fzf"
 brew "gh"
@@ -19,6 +21,7 @@ brew "gleam"
 brew "glow"
 brew "go"
 brew "gum"
+brew "libheif"
 brew "imagemagick"
 brew "lazygit"
 brew "lynx"
@@ -27,6 +30,7 @@ brew "mas"
 brew "micro"
 brew "mint"
 brew "nvm"
+brew "oh-my-posh"
 brew "pandoc"
 brew "parallel"
 brew "ripgrep"
@@ -36,7 +40,6 @@ brew "starship"
 brew "swift-format"
 brew "telnet"
 brew "thefuck"
-brew "tmux"
 brew "toot"
 brew "wget"
 brew "yt-dlp"
@@ -46,20 +49,16 @@ brew "get-woke/tap/woke"
 cask "airbuddy"
 cask "alfred"
 cask "arc"
-cask "bartender"
 cask "bbedit"
 cask "carbon-copy-cloner"
-cask "codeedit"
 cask "contexts"
-cask "cool-retro-term"
 cask "cork"
-cask "cursorsense"
 cask "daisydisk"
-cask "devtoys"
 cask "discord"
 cask "easyfind"
 cask "endless-sky"
 cask "firefox"
+cask "font-hasklig"
 cask "font-montserrat"
 cask "fork"
 cask "gb-studio"
@@ -68,33 +67,34 @@ cask "hazel"
 cask "imageoptim"
 cask "istat-menus"
 cask "iterm2"
+cask "jordanbaird-ice"
 cask "keyboardcleantool"
 cask "keystash"
 cask "latest"
 cask "llamachat"
-cask "mongodb-compass"
+cask "mac-mouse-fix"
+cask "macwhisper"
 cask "nova"
+cask "ollama"
 cask "onyx"
 cask "openemu"
 cask "paletro"
 cask "pictogram"
 cask "postgres-unofficial"
+cask "protonmail-bridge"
 cask "qlmarkdown"
-cask "raspberry-pi-imager"
+cask "quitter"
 cask "raycast"
 cask "rectangle-pro"
 cask "rocket"
 cask "siphon"
+cask "slack"
 cask "spamsieve"
 cask "steam"
 cask "swiftformat-for-xcode"
 cask "tableplus"
 cask "the-unarchiver"
-cask "utm"
-cask "via"
-cask "visual-studio-code"
-cask "vivaldi"
-cask "whisky"
+cask "thunderbird"
 cask "xscope"
 cask "zed"
 mas "1Blocker", id: 1365531024
@@ -107,14 +107,9 @@ mas "Bakery", id: 1575220747
 mas "Baking Soda", id: 1601151613
 mas "Bear", id: 1091189122
 mas "Boop", id: 1518425043
-mas "Bridge Constructor+", id: 1587908263
-mas "Builder's Journey", id: 1466965366
-mas "Cascadea", id: 1432182561
-mas "Charmstone", id: 1563735522
 mas "Codye", id: 1516894961
 mas "Collections", id: 1568395334
 mas "Color Picker", id: 1545870783
-mas "CrossCraft", id: 6472669260
 mas "DetailsPro", id: 1524366536
 mas "DevCleaner", id: 1388020431
 mas "Developer", id: 640199958
@@ -142,34 +137,33 @@ mas "Macarte", id: 1573769710
 mas "Mactracker", id: 430255202
 mas "Mini Metro+", id: 1550663539
 mas "Mini Motorways", id: 1456188526
-mas "Neo Cab", id: 1464869396
 mas "Numbers", id: 409203825
-mas "Outlanders", id: 1468558187
 mas "Page Screenshot for Safari", id: 1472715727
 mas "Pages", id: 409201541
+mas "Pandan", id: 1569600264
 mas "Parcel", id: 639968404
 mas "Pastel", id: 413897608
 mas "Photomator", id: 1444636541
 mas "Pixelmator Pro", id: 1289583905
 mas "Pixen", id: 525180431
-mas "Play", id: 1596506190
+mas "Plain Text Editor", id: 1572202501
 mas "Playgrounds", id: 1496833156
 mas "Pocket City", id: 1468908135
-mas "Puyo Puyo", id: 6446146451
+mas "Pure Paste", id: 1611378436
 mas "Reeder", id: 1529448980
 mas "Refined GitHub", id: 1519867270
 mas "Screens", id: 1224268771
+mas "Secrets", id: 1591056366
 mas "Shareful", id: 1522267256
 mas "Shortery", id: 1594183810
-mas "Slack", id: 803453959
 mas "Sleeve", id: 1606145041
-mas "Solitaire", id: 1534193824
+mas "Snippety", id: 1530751461
 mas "Soulver 3", id: 1508732804
-mas "Spaceland", id: 1471019397
+mas "Speediness", id: 1596706466
 mas "Swifter", id: 1621133381
 mas "TestFlight", id: 899247664
 mas "The Battle for Wesnoth", id: 1450738104
-mas "Theu2007Survivalists", id: 1515959873
+mas "Tomito", id: 1526042938
 mas "Tot", id: 1491071483
 mas "Transporter", id: 1450874784
 mas "Userscripts-Mac-App", id: 1463298887
@@ -179,19 +173,3 @@ mas "Wallaroo", id: 1630565980
 mas "WhatsApp", id: 1147396723
 mas "WorldWideWeb", id: 1621370168
 mas "Xcode", id: 497799835
-vscode "alefragnani.project-manager"
-vscode "astro-build.astro-vscode"
-vscode "bradlc.vscode-tailwindcss"
-vscode "catppuccin.catppuccin-vsc"
-vscode "catppuccin.catppuccin-vsc-icons"
-vscode "codeium.codeium"
-vscode "dbaeumer.vscode-eslint"
-vscode "esbenp.prettier-vscode"
-vscode "golang.go"
-vscode "poorchop.theme-darktooth"
-vscode "prisma.prisma"
-vscode "sswg.swift-lang"
-vscode "unifiedjs.vscode-mdx"
-vscode "vadimcn.vscode-lldb"
-vscode "vknabel.vscode-apple-swift-format"
-vscode "wayou.vscode-icons-mac"
