@@ -28,16 +28,20 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Modest Dark"
+    "dark": "Catppuccin Mocha"
   },
-  "ui_font_family": "SF Pro Display",
+  "scrollbar": {
+    "show": "never"
+  },
+  "ui_font_family": "Hasklig",
   "ui_font_features": {},
   "ui_font_size": 17,
-  "buffer_font_family": "Rec Mono Semicasual",
-  "buffer_font_size": 14.6,
+  "buffer_font_family": "Hasklig",
+  "buffer_font_size": 15,
   "terminal": {
     "font_family": "FiraCode Nerd Font Mono"
   },
+  "relative_line_numbers": true,
   "soft_wrap": "editor_width",
   "tabs": {
     "close_position": "left"
