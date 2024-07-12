@@ -1,3 +1,7 @@
+if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+	eval "$(oh-my-posh init zsh --config ~/dotfiles/misc_config/ohmyposh.json)"
+fi
+
 source $(brew --prefix nvm)/nvm.sh
 
 # Load seperated config files
@@ -8,9 +12,6 @@ unset conf
 
 [[ "$TERM_PROGRAM" == "CodeEditApp_Terminal" ]] && . "/Applications/CodeEdit.app/Contents/Resources/codeedit_shell_integration.zsh"
 
-if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-	eval "$(oh-my-posh init zsh --config ~/dotfiles/misc_config/ohmyposh.json)"
-fi
 
 eval $(thefuck --alias)
 eval "$(zoxide init zsh)"

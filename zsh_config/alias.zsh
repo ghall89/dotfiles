@@ -23,5 +23,5 @@ alias brewfile="brew bundle dump --file=~/dotfiles/Brewfile --force --"
 alias installbrewfile="brew bundle install --file=~/dotfiles/Brewfile"
 
 # dotfiles
-alias config="bbedit ~/dotfiles"
+alias config="zed ~/dotfiles"
 alias linkdfs="sh ~/dotfiles/symlink_dotfiles.zsh"
